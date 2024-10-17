@@ -59,8 +59,8 @@ public class Practice10818 {
         Integer.parseInt(br.readLine());	//첫 줄 N 은 안쓰이므로 입력만 받는다.
         StringTokenizer st = new StringTokenizer(br.readLine()," ");
 
-        int max = -1000001;
-        int min = 1000001;
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
         while(st.hasMoreTokens()) {
             int val = Integer.parseInt(st.nextToken());
